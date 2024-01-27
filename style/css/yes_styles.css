@@ -3,18 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F8C8DC;
+    background-color: #E6E6FA;
 }
 
-/* Position the "No" button absolutely within body */
-#noButton {
-    position: absolute;
-    margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
-}
-
-#yesButton {
+#nextButton {
     position: absolute;
     margin-right: 150px;
     /* Smooth movement */
@@ -51,7 +43,7 @@ body {
 }
 
 .btn {
-    background-color: #FFB6C1;
+    background-color: #CCCCFF;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -65,7 +57,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #FAF9F6;
+    background-color: #DBEBF8;
 }
 
 .gif_container {
