@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style/css/styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">HAPPY BIRTHDAY BABYY!!!</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://tenor.com/view/cinnamoroll-sanrio-yay-cheerful-gif-23288118" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "nextButton" onclick="nextPage()">NEXT</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "next.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
