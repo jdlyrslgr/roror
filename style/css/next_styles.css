@@ -16,9 +16,9 @@ body {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 
@@ -26,7 +26,7 @@ body {
     font-family: 'Nunito';
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -38,18 +38,18 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     /* optional: adds some space between the buttons */
 }
 
 .btn {
     background-color: #CCCCFF;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 6px 4px;
+    margin: 4px 2px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
