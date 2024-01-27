@@ -7,7 +7,7 @@ body {
 }
 
 #nextButton {
-    position: absolute;
+    position: fixed;
     margin-right: 150px;
     /* Smooth movement */
 }
