@@ -7,8 +7,8 @@ body {
 }
 
 #nextButton {
-    position: center;
-    margin-right: 150px;
+    display: block;
+    margin: auto;
     /* Smooth movement */
 }
 
