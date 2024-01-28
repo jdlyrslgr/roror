@@ -51,8 +51,8 @@ body {
 }
 
 .gif_container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    margin: auto;
 }
